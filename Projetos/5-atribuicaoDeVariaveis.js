@@ -1,14 +1,14 @@
 console.log("Atribuição de Variáveis");
 
 const idade = 21; // const não muda, é imutável
-let nome = "Luís"; // let permite mudar o valor da variável
+let primeiroNome = "Luís"; // let permite mudar o valor da variável
 let sobrenome = "Silveira";
 
-console.log(nome, sobrenome);
-console.log(nome + " " + sobrenome);
+console.log(primeiroNome, sobrenome);
+console.log(primeiroNome + " " + sobrenome);
 
-const nomeCompleto = nome + sobrenome;
+const nomeCompleto = primeiroNome + sobrenome;
 console.log(`Meu nome é ${nomeCompleto}`);
 
-nome += sobrenome;
-console.log(`Meu nome é ${nome}`);
+primeiroNome += sobrenome;
+console.log(`Meu nome é ${primeiroNome}`);
